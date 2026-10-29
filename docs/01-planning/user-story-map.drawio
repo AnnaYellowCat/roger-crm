@@ -1,0 +1,124 @@
+<mxfile host="Electron" modified="2026-10-29T21:24:08.216Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.8 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" version="24.4.8" etag="RSVSFaJuT9zeBE0U9Wnz" type="device">
+  <diagram id="usm-diagram" name="User Story Map">
+    <mxGraphModel dx="1843" dy="2099" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="label_cust" value="CUSTOMER" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="110" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label_admin" value="ADMIN" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="460" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label_manag" value="MANAGER" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="730" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="step_a1" value="A1. Вход" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step_a2" value="A2. Пополнение баланса" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="100" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step_a3" value="A3. Выбор постройки на карте" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="100" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step_a4" value="A4. Оформление брони" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="100" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step_a5" value="A5. Оплата" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step_a6" value="A6. Управление бронью" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="900" y="100" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="us_01" value="US-01: Регистрация в системе&#xa;(Must)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="120" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="us_02" value="US-02: Пополнение баланса&#xa;(Must)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="260" y="160" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="us_03" value="US-03: Просмотр карты с постройками&#xa;(Must)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="420" y="160" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="us_04" value="US-04: Просмотр занятости постройки/мест&#xa;(Must)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="420" y="230" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="us_05" value="US-05: Расчёт стоимости брони&#xa;(Must)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="600" y="160" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="us_07" value="US-07: Защита от двойного бронирования&#xa;(Must)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="600" y="230" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="us_08" value="US-08: Оплата брони с баланса&#xa;(Must)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="760" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="us_09" value="US-09: Отмена брони с возвратом&#xa;(Must)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="900" y="160" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="us_06" value="US-06: Применение промокода&#xa;(Should)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;dashed=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="600" y="350" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mvp_line_cust" value="MVP Line (Customer)" style="endArrow=none;dashed=1;html=1;strokeColor=#ff0000;strokeWidth=2;fontColor=#ff0000;fontStyle=1;labelPosition=right;verticalAlign=middle;align=left;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="320" as="sourcePoint" />
+            <mxPoint x="1050" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="step_b1" value="B1. Вход" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="450" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step_b2" value="B2. Управление пользователями" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="450" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step_b3" value="B3. Управление постройками на карте" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="450" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step_b4" value="B4. Вывод из строя" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="450" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="us_10" value="US-10: Управление пользователями и ролями&#xa;(Must)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="260" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="us_11" value="US-11: CRUD построек на карте&#xa;(Must)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="420" y="510" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="us_12" value="US-12: Вывод постройки из строя + компенсация&#xa;(Should)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;dashed=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="600" y="600" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mvp_line_admin" value="MVP Line (Admin)" style="endArrow=none;dashed=1;html=1;strokeColor=#ff0000;strokeWidth=2;fontColor=#ff0000;fontStyle=1;labelPosition=right;verticalAlign=middle;align=left;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="580" as="sourcePoint" />
+            <mxPoint x="1050" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="step_c1" value="C1. Вход" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step_c2" value="C2. Управление акциями" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="720" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step_c3" value="C3. Финансовая аналитика" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="720" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="us_13" value="US-13: Создание акции/промокода&#xa;(Must)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="260" y="780" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="us_15" value="US-15: Управление ценами построек&#xa;(Should)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;dashed=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="260" y="890" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="us_14" value="US-14: Финансовая аналитика за период&#xa;(Could)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;dashed=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="420" y="890" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mvp_line_manag" value="MVP Line (Manager)" style="endArrow=none;dashed=1;html=1;strokeColor=#ff0000;strokeWidth=2;fontColor=#ff0000;fontStyle=1;labelPosition=right;verticalAlign=middle;align=left;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="860" as="sourcePoint" />
+            <mxPoint x="1050" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend" value="&lt;b&gt;Легенда:&lt;/b&gt;&lt;br&gt;&lt;br&gt;🟨 Must (Входит в MVP)&lt;br&gt;⬜ Should / Could (Ниже линии MVP)&lt;br&gt;&lt;br&gt;Линии MVP отделяют обязательный функционал для запуска от желательного." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;spacingTop=10;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="10" y="-90" width="260" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
