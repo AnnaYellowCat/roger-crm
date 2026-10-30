@@ -25,6 +25,6 @@ CRM-система с клиентским веб-порталом для упр
 *   [Бэклог проекта](docs/01-planning/backlog.md)
 *   [Оценка задач](docs/01-planning/estimates.md)
 *   [WSJF, модель и решение задачи о рюкзаке](docs/01-planning/prioritization.md)
-*   [сетевой график, PERT, Монте-Карло](docs/01-planning/release-plan.md)
+*   [Сетевой график, PERT, Монте-Карло](docs/01-planning/release-plan.md)
 *   [Процесс разработки](docs/01-planning/process.md)
 *   [Рабочее соглашение команды](docs/01-planning/team-agreement.md)
