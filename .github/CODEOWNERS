@@ -1,0 +1,18 @@
+# CODEOWNERS для GitHub Flow.
+
+# По умолчанию ревьюерами могут быть оба разработчика.
+* @AnnaYellowCat @NickMosk1
+
+# CI/CD, GitHub Actions и инфраструктура — зона Ани,
+# но Никита также может одобрить, если Ан\ автор PR.
+/.github/ @NickMosk1 @AnnaYellowCat
+/.github/workflows/ @NickMosk1 @AnnaYellowCat
+/scripts/ @NickMosk1 @AnnaYellowCat
+
+# Документация, бэклог и описание процессов — зона Никиты,
+# но Аня также может одобрить, если Никита автор PR.
+/docs/ @AnnaYellowCat @NickMosk1
+*.md @AnnaYellowCat @NickMosk1
+
+# Примеры данных и CSV для расчётов — общая зона.
+/examples/ @AnnaYellowCat @NickMosk1
